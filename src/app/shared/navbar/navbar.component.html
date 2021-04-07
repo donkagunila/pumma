@@ -1,0 +1,160 @@
+<header class="navbar navbar-expand-md navbar-light d-print-none">
+  <div class="container-xl">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+      <a href="/">
+        <img src="../../assets/img/logo_white.png" width="110" height="32" alt="Tabler" class="navbar-brand-image">
+      </a>
+    </h1>
+    <div class="navbar-nav flex-row order-md-last">
+      <div class="nav-item d-none d-md-flex me-3">
+        <div class="btn-list">
+
+          <div class="btn-group " dropdown>
+            <button id="button-animated" dropdownToggle type="button" class="btn btn-outline-white"
+                    aria-controls="dropdown-animated">
+              Puma Mwenge 
+              <span class="pl-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" /></svg>
+              </span>
+            </button>
+            <ul id="dropdown-animated" *dropdownMenu class="dropdown-menu"
+                role="menu" aria-labelledby="button-animated">
+                <li role="menuitem" *ngFor="let station of stations">
+                  <a class="dropdown-item" href="#">Puma {{ station }}</a>
+                </li>
+                <div class="dropdown-divider"></div>
+          
+              <li role="menuitem"><a class="dropdown-item" href="#">All Stations</a></li>
+            </ul>
+          </div>
+
+        
+        </div>
+      </div>
+      <div class="nav-item dropdown d-none d-md-flex me-3">
+        <a href="#" class="nav-link px-0" data-bs-toggle="dropdown" tabindex="-1" aria-label="Show notifications">
+          <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" /><path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg>
+          <span class="badge bg-red"></span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end dropdown-menu-card">
+          <div class="card">
+            <div class="card-body">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ad amet consectetur exercitationem fugiat in ipsa ipsum, natus odio quidem quod repudiandae sapiente. Amet debitis et magni maxime necessitatibus ullam.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="nav-item dropdown" dropdown>
+        <a id="button-user-animated" class="nav-link d-flex lh-1 text-reset p-0" dropdownToggle aria-label="Open user menu" aria-controls="dropdown-user-animated">
+          <span class="avatar" style="background-image: url('/assets/img/avatar.jpeg')"></span>
+          <div class="d-none d-xl-block ps-2">
+            <div>Puma Administrator</div>
+            <div class="mt-1 small text-muted">Admin</div>
+          </div>
+        </a>
+        <div id="dropdown-user-animated" class="dropdown-menu dropdown-menu-end dropdown-menu-arrow" *dropdownMenu>
+          <a href="#" role="menuitem" class="dropdown-item">Profile</a>
+          <a href="#" role="menuitem" class="dropdown-item">settings</a>
+          <div class="dropdown-divider"></div>
+          
+          <a (click)="logout()" role="menuitem" class="dropdown-item">
+            <span class="pr-2">
+              <!-- Download SVG icon from http://tabler-icons.io/i/logout -->
+	          <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" /><path d="M7 12h14l-3 -3m0 6l3 -3" /></svg>
+            </span>Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="navbar-expand-md">
+  <div class="collapse navbar-collapse" id="navbar-menu">
+    <div class="navbar navbar-light">
+      <div class="container-xl">
+        <ul class="navbar-nav">
+          <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:
+            true}">
+            <a class="nav-link" routerLink="/dashboard" >
+              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/home -->
+                <!-- Download SVG icon from http://tabler-icons.io/i/apps -->
+	              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="4" width="6" height="6" rx="1" /><rect x="4" y="14" width="6" height="6" rx="1" /><rect x="14" y="14" width="6" height="6" rx="1" /><line x1="14" y1="7" x2="20" y2="7" /><line x1="17" y1="4" x2="17" y2="10" /></svg>
+              </span>
+              <span class="nav-link-title">
+                Dashboard
+              </span>
+            </a>
+          </li>
+       
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]= "['/pump/sales']" >
+              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                <!-- Download SVG icon from http://tabler-icons.io/i/businessplan -->
+	              <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><ellipse cx="16" cy="6" rx="5" ry="3" /><path d="M11 6v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" /><path d="M11 10v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" /><path d="M11 14v4c0 1.657 2.239 3 5 3s5 -1.343 5 -3v-4" /><path d="M7 9h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" /><path d="M5 15v1m0 -8v1" /></svg>
+              </span>
+              <span class="nav-link-title">
+                Pump Sales
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]= "['/reports']"  >
+              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2" /><rect x="9" y="3" width="6" height="4" rx="2" /><line x1="9" y1="12" x2="9.01" y2="12" /><line x1="13" y1="12" x2="15" y2="12" /><line x1="9" y1="16" x2="9.01" y2="16" /><line x1="13" y1="16" x2="15" y2="16" /></svg>              </span>
+              <span class="nav-link-title">
+        
+                Tank report
+               
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]= "['/discounts']"  >
+              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+<!-- Download SVG icon from http://tabler-icons.io/i/discount -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="9" y1="15" x2="15" y2="9" /><circle cx="9.5" cy="9.5" r=".5" fill="currentColor" /><circle cx="14.5" cy="14.5" r=".5" fill="currentColor" /><circle cx="12" cy="12" r="9" /></svg>              </span>
+              <span class="nav-link-title">
+          
+                Discount 
+            
+              </span>
+            </a>
+          </li>
+
+          <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link" [routerLink]= "['/pump/control']" >
+              <span class="nav-link-icon d-md-none d-lg-inline-block"><!-- Download SVG icon from http://tabler-icons.io/i/checkbox -->
+                <!-- Download SVG icon from http://tabler-icons.io/i/dimensions -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 5h11" /><path d="M12 7l2 -2l-2 -2" /><path d="M5 3l-2 2l2 2" /><path d="M19 10v11" /><path d="M17 19l2 2l2 -2" /><path d="M21 12l-2 -2l-2 2" /><rect x="3" y="10" width="11" height="11" rx="2" /></svg>              </span>
+              <span class="nav-link-title">
+                Pump Control
+              </span>
+            </a>
+          </li>
+
+
+        
+        
+        
+        </ul>
+        <div class="my-2 my-md-0 flex-grow-1 flex-md-grow-0 order-first order-md-last">
+          <form action="https://preview.tabler.io/." method="get">
+            <div class="input-icon">
+              <span class="input-icon-addon">
+                <!-- Download SVG icon from http://tabler-icons.io/i/search -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="10" cy="10" r="7" /><line x1="21" y1="21" x2="15" y2="15" /></svg>
+              </span>
+              <input type="text" class="form-control" placeholder="Search…" aria-label="Search in website">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

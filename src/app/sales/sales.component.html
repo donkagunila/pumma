@@ -1,0 +1,93 @@
+<div class="wrapper">
+  <app-navbar></app-navbar>
+
+  <div class="page-wrapper">
+
+    <!-- heading -->
+    <div class="container-xl">
+      <!-- Page title -->
+      <div class="page-header d-print-none">
+        <div class="row align-items-center">
+          <div class="col">
+            <!-- Page pre-title -->
+            <div class="page-pretitle">
+              sales
+            </div>
+            <h2 class="page-title">
+              Pump Sales
+            </h2>
+          </div>
+          <!-- Page title actions -->
+          <div class="col-auto ms-auto d-print-none">
+            <div class="btn-list">
+             
+              <a href="/pump/sales" class="btn btn-primary d-none d-sm-inline-block" data-bs-toggle="modal" data-bs-target="#modal-report">
+                <!-- Download SVG icon from http://tabler-icons.io/i/file-export -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M14 3v4a1 1 0 0 0 1 1h4" /><path d="M11.5 21h-4.5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v5m-5 6h7m-3 -3l3 3l-3 3" /></svg>
+                Export Sales
+              </a>
+              <a href="#" class="btn btn-primary d-sm-none btn-icon" data-bs-toggle="modal" data-bs-target="#modal-report" aria-label="Create new report">
+                <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="5" y1="12" x2="19" y2="12" /></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end heading -->
+
+
+    <div class="page-body">
+      <div class="container-xl">
+        <div class="row row-cards">
+          <div class="col-12">
+            <div class="card">
+              <div class="table-responsive p-4">
+                <table datatable class="table table-vcenter card-table">
+                  <thead>
+                    <tr>
+                      <th>S/N</th>
+                      <th>Date</th>
+                      <th>Time</th>
+                      <th>Diesel Lt</th>
+                      <th>amount</th>
+                      <th>Petrol Lt</th>
+                      <th>amount</th>
+                      <th>Total Lts</th>
+                      <th>Total amount</th>
+                      <th class="w-1">Action</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+
+                    <tr *ngFor = "let item of [1, 2, 3, 4, 5, 6, 7, 8]">
+                      <td>{{ item }}</td>
+                      <td>05 Apr, 2021</td>
+                      <td>06:12</td>
+                      <td>1200</td>
+                      <td>1900000</td>
+                      <td>1125</td>
+                      <td>1900000</td>
+                      <td>1125</td>
+                      <td>1900000</td>
+                      <td>
+                        <a href="/pump/sales" class="btn">
+                           <span ><!-- Download SVG icon from http://tabler-icons.io/i/eye -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="2" /><path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7" /></svg></span>
+                           <span>View</span> 
+                        </a>
+                      </td>
+                    </tr>
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

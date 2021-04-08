@@ -28,89 +28,643 @@
 
     <div class="page-body">
       <div class="container-xl">
-        <div class="row row-deck row-cards">
-          <div class="col-sm-6 col-lg-6">
-            <div class="card bg-success">
+        <div class="row">
 
-              <div class="card-header card-colored text-white">
-                <span class="pr-2">
-                  <!-- Download SVG icon from http://tabler-icons.io/i/pokeball -->
-	<svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="9" cy="9" r="9" transform="translate(3 3)" /><circle cx="12" cy="12" r="3" /><path d="M3 12h6m6 0h6" /></svg>
-                </span>
-                Diesel
-              </div>
 
-              <div class="card-body">
-                <div class="d-flex align-items-center">
-                  <div class="subheader text-white">Diesel Sales</div>
-                  <div class="ms-auto lh-1">
-                    <div class="dropdown">
-                      <a class="dropdown-toggle text-white" href="#"  >Last 7 days</a>
-                      <div class="dropdown-menu dropdown-menu-end">
-                        <a class="dropdown-item active text-white" href="#">Last 7 days</a>
-                        <a class="dropdown-item text-white" href="#">Last 30 days</a>
-                        <a class="dropdown-item text-white" href="#">Last 3 months</a>
+          <div class="col-md-8">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="row row-cards">
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center">
+                              <div class="subheader">Unleaded Sales (Lts)</div>
+                              <div class="ms-auto lh-1">
+                                <div class="dropdown">
+                                  <a class="dropdown-toggle text-muted" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Last 7 days</a>
+                                  <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item active" href="#">Last 7 days</a>
+                                    <a class="dropdown-item" href="#">Last 30 days</a>
+                                    <a class="dropdown-item" href="#">Last 3 months</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="h1 mb-3">120,125,123 </div>
+                            <div class="d-flex mb-2">
+                              <div>purchase rate</div>
+                              <div class="ms-auto">
+                                <span class="text-green d-inline-flex align-items-center lh-1">
+                                  9% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="3 17 9 11 13 15 21 7"></polyline><polyline points="14 7 21 7 21 14"></polyline></svg>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="progress progress-sm">
+                              <div class="progress-bar bg-tabler" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="visually-hidden">85% Complete</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
+
+
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center">
+                              <div class="subheader">Diesel Sales (Lts)</div>
+                              <div class="ms-auto lh-1">
+                                <div class="dropdown">
+                                  <a class="dropdown-toggle text-muted" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Last 7 days</a>
+                                  <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item active" href="#">Last 7 days</a>
+                                    <a class="dropdown-item" href="#">Last 30 days</a>
+                                    <a class="dropdown-item" href="#">Last 3 months</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="h1 mb-3">250,123 </div>
+                            <div class="d-flex mb-2">
+                              <div>Purchase rate</div>
+                              <div class="ms-auto">
+                                <span class="text-green d-inline-flex align-items-center lh-1">
+                                  2% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="3 17 9 11 13 15 21 7"></polyline><polyline points="14 7 21 7 21 14"></polyline></svg>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="progress progress-sm">
+                              <div class="progress-bar bg-tabler" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="visually-hidden">25% Complete</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center">
+                              <div class="subheader">Kerosine Sales (Lts)</div>
+                              <div class="ms-auto lh-1">
+                                <div class="dropdown">
+                                  <a class="dropdown-toggle text-muted" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Last 7 days</a>
+                                  <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item active" href="#">Last 7 days</a>
+                                    <a class="dropdown-item" href="#">Last 30 days</a>
+                                    <a class="dropdown-item" href="#">Last 3 months</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="h1 mb-3">750,123</div>
+                            <div class="d-flex mb-2">
+                              <div>purchase rate</div>
+                              <div class="ms-auto">
+                                <span class="text-green d-inline-flex align-items-center lh-1">
+                                  12% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="3 17 9 11 13 15 21 7"></polyline><polyline points="14 7 21 7 21 14"></polyline></svg>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="progress progress-sm">
+                              <div class="progress-bar bg-tabler" style="width: 82%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="visually-hidden">70% Complete</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <div class="col-md-6">
+                        <div class="card">
+                          <div class="card-body">
+                            <div class="d-flex align-items-center">
+                              <div class="subheader">Total Sales (Lts)</div>
+                              <div class="ms-auto lh-1">
+                                <div class="dropdown">
+                                  <a class="dropdown-toggle text-muted" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Last 7 days</a>
+                                  <div class="dropdown-menu dropdown-menu-end">
+                                    <a class="dropdown-item active" href="#">Last 7 days</a>
+                                    <a class="dropdown-item" href="#">Last 30 days</a>
+                                    <a class="dropdown-item" href="#">Last 3 months</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="h1 mb-3">123,000,123</div>
+                            <div class="d-flex mb-2">
+                              <div>Conversion rate</div>
+                              <div class="ms-auto">
+                                <span class="text-green d-inline-flex align-items-center lh-1">
+                                  7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
+                                  <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="3 17 9 11 13 15 21 7"></polyline><polyline points="14 7 21 7 21 14"></polyline></svg>
+                                </span>
+                              </div>
+                            </div>
+                            <div class="progress progress-sm">
+                              <div class="progress-bar bg-tabler" style="width: 55%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <span class="visually-hidden">55% Complete</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                   </div>
                 </div>
-                <div class="h1 mb-3 text-white">75%</div>
-                <div class="d-flex mb-2">
-                  <div class="text-white">Conversion rate</div>
-                  <div class="ms-auto">
-                    <span class="text-green d-inline-flex align-items-center lh-1">
-                      7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="3 17 9 11 13 15 21 7" /><polyline points="14 7 21 7 21 14" /></svg>
-                    </span>
+              </div>
+          </div>
+
+
+          <div class="col-md-4">
+
+              <div class="card">
+                <div class="card-body">
+                  <div id="chart">
+                    <apx-chart
+                      [series]="chartOptions.series"
+                      [chart]="chartOptions.chart"
+                      [labels]="chartOptions.labels"
+                      [title]="chartOptions.title"
+                      [subtitle] ="chartOptions.subtitle"
+                      [theme]="chartOptions.theme"
+                      [responsive]="chartOptions.responsive"
+                    ></apx-chart>
                   </div>
                 </div>
-                <div class="progress progress-sm">
-                  <div class="progress-bar bg-danger" style="width: 65%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <span class="visually-hidden text-white">75% Complete</span>
-                  </div>
-                </div>
+              </div>
+            
+          </div>
+         
+
+          
+
+        </div>
+
+
+        <div class="row mt-4">
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Stations Traffic</h3>
+              </div>
+              <table class="table card-table table-vcenter">
+                <thead>
+                  <tr>
+                    <th>Station</th>
+                    <th colspan="2">Visitors</th>
+                  </tr>
+                </thead>
+                <tbody>
+                 
+                  <tr>
+                    <td>Kawe</td>
+                    <td>1,798</td>
+                    <td class="w-50">
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-tabler" style="width: 75.96%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Kinondoni</td>
+                    <td>1,245</td>
+                    <td class="w-50">
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-tabler" style="width: 54.9%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Mwenge</td>
+                    <td>986</td>
+                    <td class="w-50">
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-tabler" style="width: 49.72%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Ilala</td>
+                    <td>854</td>
+                    <td class="w-50">
+                      <div class="progress progress-xs">
+                        <div class="progress-bar bg-tabler" style="width: 17.08%"></div>
+                      </div>
+                    </td>
+                  </tr>
+                 
+                
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+
+          <div class="col-md-12 col-lg-8">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Sales By Pumps <small>(Real time)</small></h3>
+              </div>
+              <div class="card-table table-responsive">
+                <table class="table table-vcenter">
+                  <thead>
+                    <tr>
+                      <th>Page name</th>
+                      <th>Vehicles</th>
+                      <th>Total</th>
+                      <th colspan="2">Change Rate</th>
+                    </tr>
+                  </thead>
+                  <tbody><tr>
+                    <td>
+                      Pump A
+                     
+                    </td>
+                    <td class="text-muted">96</td>
+                    <td class="text-muted">150,000</td>
+                    <td class="text-muted">42.54%</td>
+                    <td class="text-end w-1" style="position: relative;">
+                      <div class="chart-sparkline chart-sparkline-sm" id="sparkline-bounce-rate-1" style="min-height: 24px;"><div id="apexcharts48z2m5y9" class="apexcharts-canvas apexcharts48z2m5y9 apexcharts-theme-light" style="width: 64px; height: 24px;"><svg id="SvgjsSvg4585" width="64" height="24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG4587" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs4586"><clipPath id="gridRectMask48z2m5y9"><rect id="SvgjsRect4593" width="70" height="26" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMask48z2m5y9"><rect id="SvgjsRect4594" width="68" height="28" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine4592" x1="0" y1="0" x2="0" y2="24" stroke="#b6b6b6" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="24" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG4600" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG4601" class="apexcharts-xaxis-texts-g" transform="translate(0, 2.75)"></g></g><g id="SvgjsG4612" class="apexcharts-grid"><g id="SvgjsG4613" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine4615" x1="0" y1="0" x2="64" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4616" x1="0" y1="6" x2="64" y2="6" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4617" x1="0" y1="12" x2="64" y2="12" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4618" x1="0" y1="18" x2="64" y2="18" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4619" x1="0" y1="24" x2="64" y2="24" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG4614" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine4621" x1="0" y1="24" x2="64" y2="24" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine4620" x1="0" y1="1" x2="0" y2="24" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG4595" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG4596" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath4599" d="M 0 7L 8 0L 16 4L 24 14L 32 19L 40 23L 48 20L 56 6L 64 11" fill="none" fill-opacity="1" stroke="rgba(32,107,196,0.85)" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMask48z2m5y9)" pathTo="M 0 7L 8 0L 16 4L 24 14L 32 19L 40 23L 48 20L 56 6L 64 11" pathFrom="M -1 24L -1 24L 8 24L 16 24L 24 24L 32 24L 40 24L 48 24L 56 24L 64 24"></path><g id="SvgjsG4597" class="apexcharts-series-markers-wrap" data:realIndex="0"></g></g><g id="SvgjsG4598" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine4622" x1="0" y1="0" x2="64" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine4623" x1="0" y1="0" x2="64" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG4624" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG4625" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG4626" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect4591" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG4611" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG4588" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 12px;"></div></div></div>
+                    <div class="resize-triggers"><div class="expand-trigger"><div style="width: 89px; height: 41px;"></div></div><div class="contract-trigger"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Pump B
+                      
+                    </td>
+                    <td class="text-muted">652</td>
+                    <td class="text-muted">3,215,000</td>
+                    <td class="text-muted">76.29%</td>
+                    <td class="text-end w-1" style="position: relative;">
+                      <div class="chart-sparkline chart-sparkline-sm" id="sparkline-bounce-rate-2" style="min-height: 24px;"><div id="apexcharts6f6iohz4" class="apexcharts-canvas apexcharts6f6iohz4 apexcharts-theme-light" style="width: 64px; height: 24px;"><svg id="SvgjsSvg4627" width="64" height="24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG4629" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs4628"><clipPath id="gridRectMask6f6iohz4"><rect id="SvgjsRect4635" width="70" height="26" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMask6f6iohz4"><rect id="SvgjsRect4636" width="68" height="28" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine4634" x1="0" y1="0" x2="0" y2="24" stroke="#b6b6b6" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="24" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG4642" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG4643" class="apexcharts-xaxis-texts-g" transform="translate(0, 2.75)"></g></g><g id="SvgjsG4654" class="apexcharts-grid"><g id="SvgjsG4655" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine4657" x1="0" y1="0" x2="64" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4658" x1="0" y1="4.8" x2="64" y2="4.8" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4659" x1="0" y1="9.6" x2="64" y2="9.6" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4660" x1="0" y1="14.399999999999999" x2="64" y2="14.399999999999999" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4661" x1="0" y1="19.2" x2="64" y2="19.2" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4662" x1="0" y1="24" x2="64" y2="24" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG4656" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine4664" x1="0" y1="24" x2="64" y2="24" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine4663" x1="0" y1="1" x2="0" y2="24" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG4637" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG4638" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath4641" d="M 0 11.520000000000001L 8 13.440000000000001L 16 5.760000000000002L 24 2.8800000000000026L 32 12.48L 40 17.28L 48 10.56L 56 21.12L 64 3.84" fill="none" fill-opacity="1" stroke="rgba(32,107,196,0.85)" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMask6f6iohz4)" pathTo="M 0 11.520000000000001L 8 13.440000000000001L 16 5.760000000000002L 24 2.8800000000000026L 32 12.48L 40 17.28L 48 10.56L 56 21.12L 64 3.84" pathFrom="M -1 24L -1 24L 8 24L 16 24L 24 24L 32 24L 40 24L 48 24L 56 24L 64 24"></path><g id="SvgjsG4639" class="apexcharts-series-markers-wrap" data:realIndex="0"></g></g><g id="SvgjsG4640" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine4665" x1="0" y1="0" x2="64" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine4666" x1="0" y1="0" x2="64" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG4667" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG4668" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG4669" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect4633" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG4653" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG4630" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 12px;"></div></div></div>
+                    <div class="resize-triggers"><div class="expand-trigger"><div style="width: 89px; height: 41px;"></div></div><div class="contract-trigger"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Pump C
+                      
+                    </td>
+                    <td class="text-muted">256</td>
+                    <td class="text-muted">2,865,000</td>
+                    <td class="text-muted">72.65%</td>
+                    <td class="text-end w-1" style="position: relative;">
+                      <div class="chart-sparkline chart-sparkline-sm" id="sparkline-bounce-rate-3" style="min-height: 24px;"><div id="apexchartsgbmy0irf" class="apexcharts-canvas apexchartsgbmy0irf apexcharts-theme-light" style="width: 64px; height: 24px;"><svg id="SvgjsSvg4670" width="64" height="24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG4672" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs4671"><clipPath id="gridRectMaskgbmy0irf"><rect id="SvgjsRect4678" width="70" height="26" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMaskgbmy0irf"><rect id="SvgjsRect4679" width="68" height="28" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine4677" x1="0" y1="0" x2="0" y2="24" stroke="#b6b6b6" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="24" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG4685" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG4686" class="apexcharts-xaxis-texts-g" transform="translate(0, 2.75)"></g></g><g id="SvgjsG4697" class="apexcharts-grid"><g id="SvgjsG4698" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine4700" x1="0" y1="0" x2="64" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4701" x1="0" y1="4.8" x2="64" y2="4.8" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4702" x1="0" y1="9.6" x2="64" y2="9.6" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4703" x1="0" y1="14.399999999999999" x2="64" y2="14.399999999999999" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4704" x1="0" y1="19.2" x2="64" y2="19.2" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine4705" x1="0" y1="24" x2="64" y2="24" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG4699" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine4707" x1="0" y1="24" x2="64" y2="24" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine4706" x1="0" y1="1" x2="0" y2="24" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG4680" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG4681" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath4684" d="M 0 14.4L 8 11.520000000000001L 16 14.4L 24 20.16L 32 7.68L 40 21.12L 48 1.9200000000000017L 56 2.8800000000000026L 64 5.760000000000002" fill="none" fill-opacity="1" stroke="rgba(32,107,196,0.85)" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskgbmy0irf)" pathTo="M 0 14.4L 8 11.520000000000001L 16 14.4L 24 20.16L 32 7.68L 40 21.12L 48 1.9200000000000017L 56 2.8800000000000026L 64 5.760000000000002" pathFrom="M -1 24L -1 24L 8 24L 16 24L 24 24L 32 24L 40 24L 48 24L 56 24L 64 24"></path><g id="SvgjsG4682" class="apexcharts-series-markers-wrap" data:realIndex="0"></g></g><g id="SvgjsG4683" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine4708" x1="0" y1="0" x2="64" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine4709" x1="0" y1="0" x2="64" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG4710" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG4711" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG4712" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect4676" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG4696" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG4673" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 12px;"></div></div></div>
+                    <div class="resize-triggers"><div class="expand-trigger"><div style="width: 89px; height: 41px;"></div></div><div class="contract-trigger"></div></div></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      Pump D
+                     
+                    </td>
+                    <td class="text-muted">86</td>
+                    <td class="text-muted">800,250</td>
+                    <td class="text-muted">44.89%</td>
+                    <td class="text-end w-1" style="position: relative;">
+                      <div class="chart-sparkline chart-sparkline-sm" id="sparkline-bounce-rate-4" style="min-height: 24px;"><div id="apexchartsk7dzg6tm" class="apexcharts-canvas apexchartsk7dzg6tm apexcharts-theme-light" style="width: 64px; height: 24px;"><svg id="SvgjsSvg5048" width="64" height="24" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" class="apexcharts-svg" xmlns:data="ApexChartsNS" transform="translate(0, 0)" style="background: transparent;"><g id="SvgjsG5050" class="apexcharts-inner apexcharts-graphical" transform="translate(0, 0)"><defs id="SvgjsDefs5049"><clipPath id="gridRectMaskk7dzg6tm"><rect id="SvgjsRect5056" width="70" height="26" x="-3" y="-1" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath><clipPath id="gridRectMarkerMaskk7dzg6tm"><rect id="SvgjsRect5057" width="68" height="28" x="-2" y="-2" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fff"></rect></clipPath></defs><line id="SvgjsLine5055" x1="0" y1="0" x2="0" y2="24" stroke="#b6b6b6" stroke-dasharray="3" class="apexcharts-xcrosshairs" x="0" y="0" width="1" height="24" fill="#b1b9c4" filter="none" fill-opacity="0.9" stroke-width="1"></line><g id="SvgjsG5063" class="apexcharts-xaxis" transform="translate(0, 0)"><g id="SvgjsG5064" class="apexcharts-xaxis-texts-g" transform="translate(0, 2.75)"></g></g><g id="SvgjsG5075" class="apexcharts-grid"><g id="SvgjsG5076" class="apexcharts-gridlines-horizontal" style="display: none;"><line id="SvgjsLine5078" x1="0" y1="0" x2="64" y2="0" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine5079" x1="0" y1="6" x2="64" y2="6" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine5080" x1="0" y1="12" x2="64" y2="12" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine5081" x1="0" y1="18" x2="64" y2="18" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line><line id="SvgjsLine5082" x1="0" y1="24" x2="64" y2="24" stroke="#e0e0e0" stroke-dasharray="0" class="apexcharts-gridline"></line></g><g id="SvgjsG5077" class="apexcharts-gridlines-vertical" style="display: none;"></g><line id="SvgjsLine5084" x1="0" y1="24" x2="64" y2="24" stroke="transparent" stroke-dasharray="0"></line><line id="SvgjsLine5083" x1="0" y1="1" x2="0" y2="24" stroke="transparent" stroke-dasharray="0"></line></g><g id="SvgjsG5058" class="apexcharts-line-series apexcharts-plot-series"><g id="SvgjsG5059" class="apexcharts-series" seriesName="seriesx1" data:longestSeries="true" rel="1" data:realIndex="0"><path id="SvgjsPath5062" d="M 0 21L 8 7.5L 16 10.5L 24 10.5L 32 22.5L 40 19.5L 48 4.5L 56 0L 64 1.5" fill="none" fill-opacity="1" stroke="rgba(32,107,196,0.85)" stroke-opacity="1" stroke-linecap="round" stroke-width="2" stroke-dasharray="0" class="apexcharts-line" index="0" clip-path="url(#gridRectMaskk7dzg6tm)" pathTo="M 0 21L 8 7.5L 16 10.5L 24 10.5L 32 22.5L 40 19.5L 48 4.5L 56 0L 64 1.5" pathFrom="M -1 30L -1 30L 8 30L 16 30L 24 30L 32 30L 40 30L 48 30L 56 30L 64 30"></path><g id="SvgjsG5060" class="apexcharts-series-markers-wrap" data:realIndex="0"></g></g><g id="SvgjsG5061" class="apexcharts-datalabels" data:realIndex="0"></g></g><line id="SvgjsLine5085" x1="0" y1="0" x2="64" y2="0" stroke="#b6b6b6" stroke-dasharray="0" stroke-width="1" class="apexcharts-ycrosshairs"></line><line id="SvgjsLine5086" x1="0" y1="0" x2="64" y2="0" stroke-dasharray="0" stroke-width="0" class="apexcharts-ycrosshairs-hidden"></line><g id="SvgjsG5087" class="apexcharts-yaxis-annotations"></g><g id="SvgjsG5088" class="apexcharts-xaxis-annotations"></g><g id="SvgjsG5089" class="apexcharts-point-annotations"></g></g><rect id="SvgjsRect5054" width="0" height="0" x="0" y="0" rx="0" ry="0" opacity="1" stroke-width="0" stroke="none" stroke-dasharray="0" fill="#fefefe"></rect><g id="SvgjsG5074" class="apexcharts-yaxis" rel="0" transform="translate(-18, 0)"></g><g id="SvgjsG5051" class="apexcharts-annotations"></g></svg><div class="apexcharts-legend" style="max-height: 12px;"></div></div></div>
+                    <div class="resize-triggers"><div class="expand-trigger"><div style="width: 89px; height: 41px;"></div></div><div class="contract-trigger"></div></div></td>
+                  </tr>
+                 
+                 
+                </tbody></table>
               </div>
             </div>
           </div>
 
-          <div class="col-sm-6 col-lg-6">
-            <div class="card bg-tabler">
-              <div class="card-header card-colored">
-                <span class="pr-2">
-                  
-                </span>
-                Unleaded
-              </div>
+        </div>
 
-              <div class="card-body">
-                <div class="d-flex align-items-center">
-                  <div class="subheader text-white">Unleaded Sales</div>
-                  <div class="ms-auto lh-1 ">
-                    <div class="dropdown">
-                      <a class="dropdown-toggle text-white" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Last 7 days</a>
-                      <div class="dropdown-menu dropdown-menu-end">
-                        <a class="dropdown-item active text-white" href="#">Last 7 days</a>
-                        <a class="dropdown-item text-white" href="#">Last 30 days</a>
-                        <a class="dropdown-item text-white" href="#">Last 3 months</a>
-                      </div>
+
+        <div class="row mt-4">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-header">
+                <h3 class="card-title">Invoices</h3>
+              </div>
+              <div class="card-body border-bottom py-3">
+                <div class="d-flex">
+                  <div class="text-muted">
+                    Show
+                    <div class="mx-2 d-inline-block">
+                      <input type="text" class="form-control form-control-sm" value="8" size="3" aria-label="Invoices count">
+                    </div>
+                    entries
+                  </div>
+                  <div class="ms-auto text-muted">
+                    Search:
+                    <div class="ms-2 d-inline-block">
+                      <input type="text" class="form-control form-control-sm" aria-label="Search invoice">
                     </div>
                   </div>
                 </div>
-                <div class="h1 mb-3">75%</div>
-                <div class="d-flex mb-2">
-                  <div class="text-white">Conversion rate</div>
-                  <div class="ms-auto">
-                    <span class="text-green d-inline-flex align-items-center lh-1 text-white">
-                      7% <!-- Download SVG icon from http://tabler-icons.io/i/trending-up -->
-                      <svg xmlns="http://www.w3.org/2000/svg" class="icon ms-1" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="3 17 9 11 13 15 21 7" /><polyline points="14 7 21 7 21 14" /></svg>
-                    </span>
-                  </div>
-                </div>
-                <div class="progress progress-sm">
-                  <div class="progress-bar bg-success" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <span class="visually-hidden">75% Complete</span>
-                  </div>
-                </div>
+              </div>
+              <div class="table-responsive">
+                <table class="table card-table table-vcenter text-nowrap datatable">
+                  <thead>
+                    <tr>
+      
+                      <th class="w-1">No. <!-- Download SVG icon from http://tabler-icons.io/i/chevron-up -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-sm text-dark icon-thick" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="6 15 12 9 18 15"></polyline></svg>
+                      </th>
+                      <th>Invoice Type</th>
+                      <th>VAT No.</th>
+                      <th>Vehicle</th>
+                      <th>Litres</th>
+                      <th>Created</th>
+                      <th>Status</th>
+                      <th>Price (Tsh)</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td><span class="text-muted">001401</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Diesel</a></td>
+                      <td>
+                        <span class="flag flag-country-us"></span>
+                        T 464 DUP
+                      </td>
+                      <td>
+                        56621
+                      </td>
+                      <td>
+                        15 Dec 2020
+                      </td>
+                      <td>
+                        <span class="badge bg-success me-1"></span> Paid
+                      </td>
+                      <td>887,123</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td><span class="text-muted">001402</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Unleaded</a></td>
+                      <td>
+                        <span class="flag flag-country-gb"></span>
+                        T 628 DQX
+                      </td>
+                      <td>
+                        856,421
+                      </td>
+                      <td>
+                        12 Apr 2020
+                      </td>
+                      <td>
+                        <span class="badge bg-warning me-1"></span> Pending
+                      </td>
+                      <td>120,200</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td><span class="text-muted">001403</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Unleaded</a></td>
+                      <td>
+                        <span class="flag flag-country-de"></span>
+                        T 444 DQP
+                      </td>
+                      <td>
+                        8795
+                      </td>
+                      <td>
+                        23 Oct 2020
+                      </td>
+                      <td>
+                        <span class="badge bg-warning me-1"></span> Pending
+                      </td>
+                      <td>534,120</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>4</td>
+                      <td><span class="text-muted">001404</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Unleaded</a></td>
+                      <td>
+                        <span class="flag flag-country-br"></span>
+                        T 414 APD
+                      </td>
+                      <td>
+                        53,421
+                      </td>
+                      <td>
+                        2 Sep 2020
+                      </td>
+                      <td>
+                        <span class="badge bg-warning me-1"></span> Pending
+                      </td>
+                      <td>500,000</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>5</td>
+                      <td><span class="text-muted">001405</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Diesel</a></td>
+                      <td>
+                        <span class="flag flag-country-pl"></span>
+                        T 524 DJJ
+                      </td>
+                      <td>
+                        6621
+                      </td>
+                      <td>
+                        29 Jan 2021
+                      </td>
+                      <td>
+                        <span class="badge bg-success me-1"></span> Paid 
+                      </td>
+                      <td>648,400</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button dropdown class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div dropdown-menu class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>6</td>
+                      <td><span class="text-muted">001406</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Diesel</a></td>
+                      <td>
+                        <span class="flag flag-country-br"></span>
+                        T 644 ASJ
+                      </td>
+                      <td>
+                        621
+                      </td>
+                      <td>
+                        4 Feb 2021
+                      </td>
+                      <td>
+                        <span class="badge bg-warning me-1"></span> Pending
+                      </td>
+                      <td>300,000</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>7</td>
+                      <td><span class="text-muted">001407</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Diesel</a></td>
+                      <td>
+                        <span class="flag flag-country-us"></span>
+                        T 418 AAA
+                      </td>
+                      <td>
+                        87956621
+                      </td>
+                      <td>
+                        22 Mar 2021
+                      </td>
+                      <td>
+                        <span class="badge bg-success me-1"></span> Paid
+                      </td>
+                      <td>250,220</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>8</td>
+                      <td><span class="text-muted">001408</span></td>
+                      <td><a href="invoice.html" class="text-reset" tabindex="-1">Diesel</a></td>
+                      <td>
+                        <span class="flag flag-country-pl"></span>
+                        T 444 DQP
+                      </td>
+                      <td>
+                        87956621
+                      </td>
+                      <td>
+                        13 Mar 2021
+                      </td>
+                      <td>
+                        <span class="badge bg-success me-1"></span> Paid 
+                      </td>
+                      <td>123,940</td>
+                      <td class="text-end">
+                        <span class="dropdown">
+                          <button class="btn dropdown-toggle align-text-top" data-bs-boundary="viewport" data-bs-toggle="dropdown">Actions</button>
+                          <div class="dropdown-menu dropdown-menu-end">
+                            <a class="dropdown-item" href="#">
+                              Action
+                            </a>
+                            <a class="dropdown-item" href="#">
+                              Another action
+                            </a>
+                          </div>
+                        </span>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-footer d-flex align-items-center">
+                <p class="m-0 text-muted">Showing <span>1</span> to <span>8</span> of <span>16</span> entries</p>
+                <ul class="pagination m-0 ms-auto">
+                  <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
+                      <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="15 6 9 12 15 18"></polyline></svg>
+                      prev
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item"><a class="page-link" href="#">4</a></li>
+                  <li class="page-item"><a class="page-link" href="#">5</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      next <!-- Download SVG icon from http://tabler-icons.io/i/chevron-right -->
+                      <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><polyline points="9 6 15 12 9 18"></polyline></svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
